@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tk.site_guru.lottery.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+
+                android:text="@string/app_name"
+                android:id="@+id/button"
+
+                android:onClick="onClick2" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/t1"
+                android:text="hi"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+        </LinearLayout>
+
+        <!--<GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="4"
+            android:orientation="horizontal"
+            >
+            <Button android:text="1"
+                android:layout_width="wrap_content"
+                android:id="@+id/a1"
+                android:onClick="onclick"
+                android:nestedScrollingEnabled="true" />
+            <Button android:text="2"
+                android:id="@+id/a2"
+                android:onClick="onclick" />
+            <Button android:text="3"
+                android:id="@+id/a3"
+                android:onClick="onclick" />
+            <Button android:text="4"
+                android:id="@+id/a4"
+                android:onClick="onclick" />
+            <Button android:text="5"
+                android:id="@+id/a5"
+                android:onClick="onclick" />
+            <Button android:text="6"
+                android:id="@+id/a6"
+                android:onClick="onclick"/>
+            <Button android:text="7"
+                android:id="@+id/a7"
+                android:onClick="onclick"/>
+            <Button android:text="8"
+                android:id="@+id/a8"
+                android:onClick="onclick"/>
+            <Button android:text="9"
+                android:id="@+id/a9"
+                android:onClick="onclick"/>
+            <Button android:text="10"
+                android:id="@+id/a10"
+                android:onClick="onclick"/>
+            <Button android:text="11"
+                android:id="@+id/a11"
+                android:onClick="onclick"/>
+            <Button android:text="12"
+                android:id="@+id/a12"
+                android:onClick="onclick"/>
+            <Button android:text="13"
+                android:id="@+id/a13"
+                android:onClick="onclick"/>
+            <Button android:text="14"
+                android:id="@+id/a14"
+                android:onClick="onclick"/>
+            <Button android:text="15"
+                android:id="@+id/a15"
+                android:onClick="onclick"/>
+            <Button android:text="16"
+                android:id="@+id/a16"
+                android:onClick="onclick"/>
+            <Button android:text="17"
+                android:id="@+id/a17"
+                android:onClick="onclick"/>
+            <Button android:text="18"
+                android:id="@+id/a18"
+                android:onClick="onclick"/>
+            <Button android:text="19"
+                android:id="@+id/a19"
+                android:onClick="onclick"/>
+            <Button android:text="20"
+                android:id="@+id/a20"
+                android:onClick="onclick"/>
+            <Button android:text="21"
+                android:id="@+id/a21"
+                android:onClick="onclick"/>
+            <Button android:text="22"
+                android:id="@+id/a22"
+                android:onClick="onclick"/>
+            <Button android:text="23"
+                android:id="@+id/a23"
+                android:onClick="onclick"/>
+            <Button android:text="24"
+                android:id="@+id/a24"
+                android:onClick="onclick"/>
+            <Button android:text="25"
+                android:id="@+id/a25"
+                android:onClick="onclick"/>
+            <Button android:text="26"
+                android:id="@+id/a26"
+                android:onClick="onclick"/>
+            <Button android:text="27"
+                android:id="@+id/a27"
+                android:onClick="onclick"/>
+            <Button android:text="28"
+                android:id="@+id/a28"
+                android:onClick="onclick"/>
+            <Button android:text="29"
+                android:id="@+id/a29"
+                android:onClick="onclick"/>
+            <Button android:text="30"
+                android:id="@+id/a30"
+                android:onClick="onclick"/>
+            <Button android:text="31"
+                android:id="@+id/a31"
+                android:onClick="onclick"/>
+            <Button android:text="32"
+                android:id="@+id/a32"
+                android:onClick="onclick"/>
+            <Button android:text="33"
+                android:id="@+id/a33"
+                android:onClick="onclick"/>
+            <Button android:text="34"
+                android:id="@+id/a34"
+                android:onClick="onclick"/>
+            <Button android:text="35"
+                android:id="@+id/a35"
+                android:onClick="onclick"/>
+            <Button android:text="36"
+                android:id="@+id/a36"
+                android:onClick="onclick"/>
+            <Button android:text="37"
+                android:id="@+id/a37"
+                android:onClick="onclick"/>
+            <Button android:text="38"
+                android:id="@+id/a38"
+                android:onClick="onclick"/>
+            <Button android:text="39"
+                android:id="@+id/a39"
+                android:onClick="onclick"/>
+            <Button android:text="40"
+                android:id="@+id/a40"
+                android:onClick="onclick"/>
+            <Button android:text="41"
+                android:id="@+id/a41"
+                android:onClick="onclick"/>
+            <Button android:text="42"
+                android:id="@+id/a42"
+                android:onClick="onclick"/>
+            <Button
+
+                android:text="@string/app_name"
+                android:id="@+id/button"
+
+                android:onClick="onClick2" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/t1"
+                android:text="hi"/>
+
+
+        </GridLayout>-->
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

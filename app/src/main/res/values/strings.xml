@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lottery</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Jewel</string>
+    <string name="title_activity_main2">Jewel</string>
+    <string name="title_activity_netlottery">netlottery</string>
+</resources>
